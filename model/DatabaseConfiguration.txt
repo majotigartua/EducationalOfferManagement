@@ -1,3 +1,3 @@
 URL = jdbc:mysql://localhost:3306/educationaloffering?serverTimezone=UTC 
-USERNAME = majotigartua
-PASSWORD = INGSOFTMySQL3306
+USERNAME = ?
+PASSWORD = ?
