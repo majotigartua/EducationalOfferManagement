@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="educationaloffermanagement.views.FXMLMainMenuController">
+   <children>
+      <Label layoutX="279.0" layoutY="51.0" text="Menú principal">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="121.0" layoutY="124.0" mnemonicParsing="false" onAction="#consultEducationalOfferClick" prefHeight="202.0" prefWidth="409.0" text="Consultar oferta educativa" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="283.0" layoutY="372.0" mnemonicParsing="false" onAction="#logoutButtonClick" style="-fx-background-color: #ECECEC;" text="Cerrar sesión" />
+   </children>
+</AnchorPane>
